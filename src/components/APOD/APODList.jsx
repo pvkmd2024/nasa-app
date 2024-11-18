@@ -5,7 +5,7 @@ import "./APOD.css";
 
 const APODList = () => {
   const { data, loading, error } = useFetch(
-    "https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY"
+    "https://api.nasa.gov/planetary/apod?api_key=bRWokBa8OpXxYIzZ6OKfCx3AI56JEdz9Jy7Gnhw9"
   );
 
   if (loading) return <div>Loading...</div>;
