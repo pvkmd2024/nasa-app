@@ -1,6 +1,6 @@
 import "./App.css";
 import APODList from "./components/APOD/APODList";
-
+import MarsRoverList from "./components/MarsRover/MarsRoverList";
 function App() {
   return (
     <div className="app">
@@ -9,6 +9,7 @@ function App() {
       </header>
       <main>
         <APODList />
+        <MarsRoverList />
       </main>
       <footer>
         <p>Powered by NASA Open API</p>

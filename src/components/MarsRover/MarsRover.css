@@ -1,0 +1,32 @@
+.mars-rover {
+  padding: 20px;
+}
+
+.mars-rover-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mars-photo-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.mars-photo-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.photo-details h3 {
+  margin: 10px 0;
+}
+
+.photo-details p {
+  font-size: 14px;
+  color: #555;
+}
